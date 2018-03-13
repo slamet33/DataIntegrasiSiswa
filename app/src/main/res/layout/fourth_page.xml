@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="25dp"
+    android:layout_marginLeft="25dp"
+    tools:context="id.idn.dataintegrasisiswa.fragment.FourthPage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_above="@+id/btnSignUp"
+        android:layout_marginBottom="90dp"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@color/background"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_background"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/btnSignUp"
+        android:textAllCaps="false"/>
+</RelativeLayout>

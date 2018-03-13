@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="id.idn.dataintegrasisiswa.MainActivity">
+
+    <include
+        layout="@layout/replacelayout"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp">
+
+        <RadioButton
+            android:id="@+id/rbFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/white"
+            android:padding="5dp" />
+
+        <RadioButton
+            android:id="@+id/rbSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:buttonTint="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rbThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:buttonTint="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/rbFourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:buttonTint="@android:color/white"/>
+
+    </RadioGroup>
+
+</RelativeLayout>
