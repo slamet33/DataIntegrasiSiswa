@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:background="@drawable/btn_background"
-        android:text="Sign Up"
+        android:text="Login"
         android:textColor="@android:color/white"
         android:layout_below="@+id/btnSignUp"
         android:textAllCaps="false"/>

@@ -1,6 +1,7 @@
-package id.idn.dataintegrasisiswa;
+package id.idn.dataintegrasisiswa.activity;
 
 import android.content.Context;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -17,6 +18,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
+import id.idn.dataintegrasisiswa.R;
 import id.idn.dataintegrasisiswa.fragment.FirstPage;
 import id.idn.dataintegrasisiswa.fragment.FourthPage;
 import id.idn.dataintegrasisiswa.fragment.SecondPage;
